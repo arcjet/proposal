@@ -20,74 +20,74 @@ A full-featured platform for deployments of full-stack applications with decentr
 * App users get paid to serve their data as well as the data of others
 
 ## Tasks
-- Make Desktop Client App
-	- Can install apps and services with docker containers
-	- Can proxy requests to containers
-	- Configurable proxy client rate limiting
-		- Default 1 request per IP per second
-	- Wallet with Network Coins and Application Tokens
-	- Add AJC Miner Docker Image App
-	- Decentralized Data Services
-		- Services and their potential implementations
-		- Object Store - weedfs
-		- Document Store - nedb
-		- K/V Store - levelup
-		- Rotating Offline Backups
-	- Resource allocation configuration (Defaults to 50%)
-		- Sliders for:
-			- CPU
-			- Disk Storage
-			- Memory Allocation
-			- Monthly Data Transfer
-			- Bandwidth
-		- CPU, Storage, Memory, and Data paid at different rates, combined to an estimated monthly payment as determined by rate measuring
-	- List as HA Server
-		- Increases payments but lists your server publicly with your IP with the expectation you will maintain high end server hardware with backup power supply and a business-tier ISP and that application developers will point to your server with their DNS to proxy initial requests to desktop clients running their application.
-		- HA Servers maintain a DHT of applications and desktop clients that can respond to requests for those applications.
-- Client Server Library
-	- Initiallly Node.js and Go, others to come
-	- Request
-	- Router
-	- 	Application Secret Provider
-		- Servers often have secrets that need to be configured in order to work. Must be on an HA server owned or trusted by application developer
-		- Secrets cannot be distributed with container
-	- Server Software Update Management
-	- Backups
-	- Decentralized Data Services Accessor Methods
-- Client Frontend Library
-	- JavaScript
-	- Fetch - Fetch against Arcjet hostnames and routes. DHT with data owners and all servers running this specific app. DHT is kept up-to-date in client. Fetches against three sources. Hashes all source data to validate against other sources. Removes source from DHT if returns incorrect response.
-	- Router to determine data ownership and source priority. If online, content owner receives priority for serving content.
-- Arcjet Stack Docker Container
-- Make Social Network App
-	- Can announce new apps
-- Make Marketplace App
-	- Can install apps and purchase service using AJC equivalent to USD
-		- In USD due to AWS fees being measured in USD, so is the best comparison
-- App Clones
-	- Medium Clone
-	- Slack Clone
-	- YouTube Clone
-	- Messaging Clone
-	- Twitch Clone
-- Service Clones
-	- Maps
-	- Advertising
-	- Analytics
-	- Video Streaming
-	- Object Storage
-	- Datastore
-	- Image Processing
-	- Logging
-	- Messaging
-	- 	Inbound and Outbound Email
-- Blackliists (and list payment / work reductions)
-	- Must be opted in, and blacklists are maintained by independent users
-	- Political/Controversial Content
-	- Adult/Pornographic Content
-	- User-Generated Content
-	- Encrypted Content
-	- Network Abuse (Spammers)
+- [ ] Make Desktop Client App
+	- [ ] Can install apps and services with docker containers
+	- [ ] Can proxy requests to containers
+	- [ ] Configurable proxy client rate limiting
+		- [ ] Default 1 request per IP per second
+	- [ ] Wallet with Network Coins and Application Tokens
+	- [ ] Add AJC Miner Docker Image App
+	- [ ] Decentralized Data Services
+		- [ ] Services and their potential implementations
+		- [ ] Object Store - weedfs
+		- [ ] Document Store - nedb
+		- [ ] K/V Store - levelup
+		- [ ] Rotating Offline Backups
+	- [ ] Resource allocation configuration (Defaults to 50%)
+		- [ ] Sliders for:
+			- [ ] CPU
+			- [ ] Disk Storage
+			- [ ] Memory Allocation
+			- [ ] Monthly Data Transfer
+			- [ ] Bandwidth
+		- [ ] CPU, Storage, Memory, and Data paid at different rates, combined to an estimated monthly payment as determined by rate measuring
+	- [ ] List as HA Server
+		- [ ] Increases payments but lists your server publicly with your IP with the expectation you will maintain high end server hardware with backup power supply and a business-tier ISP and that application developers will point to your server with their DNS to proxy initial requests to desktop clients running their application.
+		- [ ] HA Servers maintain a DHT of applications and desktop clients that can respond to requests for those applications.
+- [ ] Client Server Library
+	- [ ] Initiallly Node.js and Go, others to come
+	- [ ] Request
+	- [ ] Router
+		- [ ] Application Secret Provider
+		- [ ] Servers often have secrets that need to be configured in order to work. Must be on an HA server owned or trusted by application developer
+		- [ ] Secrets cannot be distributed with container
+	- [ ] Server Software Update Management
+	- [ ] Backups
+	- [ ] Decentralized Data Services Accessor Methods
+- [ ] Client Frontend Library
+	- [ ] JavaScript
+	- [ ] Fetch - Fetch against Arcjet hostnames and routes. DHT with data owners and all servers running this specific app. DHT is kept up-to-date in client. Fetches against three sources. Hashes all source data to validate against other sources. Removes source from DHT if returns incorrect response.
+	- [ ] Router to determine data ownership and source priority. If online, content owner receives priority for serving content.
+- [ ] Arcjet Stack Docker Container
+- [ ] Make Social Network App
+	- [ ] Can announce new apps
+- [ ] Make Marketplace App
+	- [ ] Can install apps and purchase service using AJC equivalent to USD
+		- [ ] In USD due to AWS fees being measured in USD, so is the best comparison
+- [ ] App Clones
+	- [ ] Medium Clone
+	- [ ] Slack Clone
+	- [ ] YouTube Clone
+	- [ ] Messaging Clone
+	- [ ] Twitch Clone
+- [ ] Service Clones
+	- [ ] Maps
+	- [ ] Advertising
+	- [ ] Analytics
+	- [ ] Video Streaming
+	- [ ] Object Storage
+	- [ ] Datastore
+	- [ ] Image Processing
+	- [ ] Logging
+	- [ ] Messaging
+		- [ ] Inbound and Outbound Email
+- [ ] Blackliists (and list payment / work reductions)
+	- [ ] Must be opted in, and blacklists are maintained by independent users
+	- [ ] Political/Controversial Content
+	- [ ] Adult/Pornographic Content
+	- [ ] User-Generated Content
+	- [ ] Encrypted Content
+	- [ ] Network Abuse (Spammers)
 
 ## Economics
 * Requests are prioritized to data owners
