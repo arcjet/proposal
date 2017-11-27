@@ -1,6 +1,10 @@
 # Arcjet Protocols for Decentralization
 A full-featured platform for deployments of full-stack applications with decentralized network infrastructure that allows app developers to pay users to serve content instead of cloud providers
 
+## Introduction and Rationale
+An Introduction can be found here: 
+[Arcjet - A Decentralized Application Server Platform — Steemit](https://steemit.com/apps/@cryptoquick/arcjet-a-decentralized-application-server-platform)
+
 ## Goals
 * Decentralize Application Server Hosting
 * Full-featured, offering secured and decentralized versions of:
@@ -33,6 +37,8 @@ A full-featured platform for deployments of full-stack applications with decentr
 		- [ ] Document Store - nedb
 		- [ ] K/V Store - levelup
 		- [ ] Rotating Offline Backups
+		- [ ] Data Viewers for each service
+		- [ ] Data may be encrypted at rest
 	- [ ] Resource allocation configuration (Defaults to 50%)
 		- [ ] Sliders for:
 			- [ ] CPU
@@ -71,6 +77,7 @@ A full-featured platform for deployments of full-stack applications with decentr
 	- [ ] Messaging Clone
 	- [ ] Twitch Clone
 - [ ] Service Clones
+	- [ ] Identity and OAuth
 	- [ ] Maps
 	- [ ] Advertising
 	- [ ] Analytics
@@ -80,7 +87,9 @@ A full-featured platform for deployments of full-stack applications with decentr
 	- [ ] Image Processing
 	- [ ] Logging
 	- [ ] Messaging
-		- [ ] Inbound and Outbound Email
+	- [ ] Inbound and Outbound Email
+	- [ ] Certificates and App Secrets Providers
+	- [ ] Billing and Payments
 - [ ] Blackliists (and list payment / work reductions)
 	- [ ] Must be opted in, and blacklists are maintained by independent users
 	- [ ] Political/Controversial Content
