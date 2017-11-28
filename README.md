@@ -121,7 +121,7 @@ Applications are pre-funded. Apps that run out of funds forward proxy to the don
 * Market balance
 
 ## Contributing
-Contact: [cryptoquick (Hunter Trujillo) · GitHub](https://github.com/cryptoquick)
-Feel free to leave an issue!
-[Join our Slack!](https://join.slack.com/t/arcjetspace/shared_invite/enQtMjc3OTIyMTEwOTk3LWZmZDFkZGJiNmQxY2Q2ODJiNGJlMDEzMzY0NzJlMjQ1YzMzNTVkNjI0NTE5OTM2OGU4OTg4NGZhNGE5NjFkODg)
-[Trello for our initial Proof of Concept](https://trello.com/b/eg12Zgb1/arcjet-proof-of-concept)
+* Contact: [cryptoquick (Hunter Trujillo) · GitHub](https://github.com/cryptoquick)
+* Feel free to leave an issue!
+* [Join our Slack!](https://join.slack.com/t/arcjetspace/shared_invite/enQtMjc3OTIyMTEwOTk3LWZmZDFkZGJiNmQxY2Q2ODJiNGJlMDEzMzY0NzJlMjQ1YzMzNTVkNjI0NTE5OTM2OGU4OTg4NGZhNGE5NjFkODg)
+* [Trello for our initial Proof of Concept](https://trello.com/b/eg12Zgb1/arcjet-proof-of-concept)
