@@ -23,7 +23,10 @@ An Introduction can be found here:
 * Voting for new app developers to join the network and maintain a public presence
 * App users get paid to serve their data as well as the data of others
 
-## Tasks
+## Concepts
+Requests to the network should be made with Arcjet clients that maintain a clientside DHT for hosts for that hostname, otherwise they are proxied through HA servers, which are more expensive. They can either run in fast mode, or secure mode. Secure mode verifies responses against those of other servers. Fast mode uses the first response.
+
+## Roadmap
 - [ ] Make Desktop Client App
 	- [ ] Can install apps and services with docker containers
 	- [ ] Can proxy requests to containers
@@ -39,7 +42,7 @@ An Introduction can be found here:
 		- [ ] Rotating Offline Backups
 		- [ ] Data Viewers for each service
 		- [ ] Data may be encrypted at rest
-	- [ ] Resource allocation configuration (Defaults to 50%)
+	- [ ] Resource allocation configuration (Defaults to 50% available)
 		- [ ] Sliders for:
 			- [ ] CPU
 			- [ ] Disk Storage
@@ -53,6 +56,7 @@ An Introduction can be found here:
 - [ ] Client Server Library
 	- [ ] Initiallly Node.js and Go, others to come
 	- [ ] Request
+		- [ ] To make requests to other services within the network
 	- [ ] Router
 		- [ ] Application Secret Provider
 		- [ ] Servers often have secrets that need to be configured in order to work. Must be on an HA server owned or trusted by application developer
@@ -74,7 +78,7 @@ An Introduction can be found here:
 	- [ ] Medium Clone
 	- [ ] Slack Clone
 	- [ ] YouTube Clone
-	- [ ] Messaging Clone
+	- [ ] Messaging Client
 	- [ ] Twitch Clone
 - [ ] Service Clones
 	- [ ] Identity and OAuth
@@ -90,7 +94,7 @@ An Introduction can be found here:
 	- [ ] Inbound and Outbound Email
 	- [ ] Certificates and App Secrets Providers
 	- [ ] Billing and Payments
-- [ ] Blackliists (and list payment / work reductions)
+- [ ] Blacklists (and list payment / work reductions)
 	- [ ] Must be opted in, and blacklists are maintained by independent users
 	- [ ] Political/Controversial Content
 	- [ ] Adult/Pornographic Content
@@ -129,3 +133,5 @@ Applications are pre-funded. Apps that run out of funds forward proxy to the don
 ## Contributing
 Contact: [cryptoquick (Hunter Trujillo) · GitHub](https://github.com/cryptoquick)
 Feel free to leave an issue!
+[Join our Slack!](https://join.slack.com/t/arcjetspace/shared_invite/enQtMjc3OTIyMTEwOTk3LWZmZDFkZGJiNmQxY2Q2ODJiNGJlMDEzMzY0NzJlMjQ1YzMzNTVkNjI0NTE5OTM2OGU4OTg4NGZhNGE5NjFkODg)
+[Trello for our initial Proof of Concept](https://trello.com/b/eg12Zgb1/arcjet-proof-of-concept)
