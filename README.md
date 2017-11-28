@@ -13,16 +13,6 @@ An Introduction can be found here:
 	* & more
 * Easy-to-use App Directory, App Dashboard (for app owners), and Apps
 
-## Key Innovations
-* Decentralized 
-* Social Network + App Marketplace + Token Exchange
-	* Provides proof of identity for users and app developers
-	* Apps can monetize with Patreon-like "subscriptions"
-		* Prorated subscription contracts
-* Create your own content within apps, own it, serve it, monetize from it
-* Voting for new app developers to join the network and maintain a public presence
-* App users get paid to serve their data as well as the data of others
-
 ## Concepts
 Requests to the network should be made with Arcjet clients that maintain a clientside DHT for hosts for that hostname, otherwise they are proxied through HA servers, which are more expensive. They can either run in fast mode, or secure mode. Secure mode verifies responses against those of other servers. Fast mode uses the first response.
 
