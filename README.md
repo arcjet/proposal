@@ -41,25 +41,25 @@ The Arcjet Nebulous Network is a network which connects Space Program operators,
 
 Network resource types and their attributes include, but are not limited to:
 
-	* Files (Object Storage)
-		* replication factor
-	* Media (all are streamed to some degree)
-		* Images
-		* Audio
-		* Video
-	* Records (Document Storage)
-		* collection
-		* .properties
-		* map()/reduce()
-	* Logs
-		* events
-	* Messages
-		* events
-	* Transactions
-		* currency
-		* value
-		* account
-		* items
+* Files (Object Storage)
+	* replication factor
+* Media (all are streamed to some degree)
+	* Images
+	* Audio
+	* Video
+* Records (Document Storage)
+	* collection
+	* .properties
+	* map()/reduce()
+* Logs
+	* events
+* Messages
+	* events
+* Transactions
+	* currency
+	* value
+	* account
+	* items
 
 ## Roadmap
 - [ ] Make Desktop Client App
