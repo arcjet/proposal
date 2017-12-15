@@ -40,6 +40,7 @@ Any query run on the Space Program must return the shard hash, hash date, and wr
 The Arcjet Nebulous Network is a network which connects Space Program operators, which implements a distributed pub/sub system and a DHT which points to various resources on the network.
 
 Network resource types and their attributes include, but are not limited to:
+
 	* Files (Object Storage)
 		* replication factor
 	* Media (all are streamed to some degree)
